@@ -20,8 +20,10 @@ export class DataInitializer{
         buttons.push(new Button("Ha GAY", "sound", "assets/audio/Ha GAY.mp3")); 
         buttons.push(new Button("Le Bron James", "sound", "assets/audio/lebronjames.mp3")); 
         buttons.push(new Button("The ting go skrrra pap pap ka ka ka", "sound", "assets/audio/skrrra.mp3")); 
-        buttons.push(new Button("Rampage", "sound", "assets/audio/rampage.mp3")); 
+        buttons.push(new Button("Rampage!", "sound", "assets/audio/rampage.mp3")); 
         buttons.push(new Button("Dramatic Squirrel", "sound", "assets/audio/dramaticSquirrel.mp3")); 
+        buttons.push(new Button("Goat Yelling", "sound", "assets/audio/goatYelling.wav")); 
+        buttons.push(new Button("Buurman wat doet u nu?", "sound", "assets/audio/buurman.wav")); 
         
         return buttons; 
     }
