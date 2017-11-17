@@ -16,7 +16,7 @@ audiofile:any;
   ngOnInit() {
   }
 
-  clicked(){
+  clicked($event){
    this.playAudio();
   }
 
