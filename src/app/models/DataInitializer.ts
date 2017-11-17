@@ -14,8 +14,14 @@ export class DataInitializer{
         buttons.push(new Button("Seagulls", "sound", "assets/audio/song.mp3")); 
         buttons.push(new Button("doit", "sound", "assets/audio/doit.wav")); 
         buttons.push(new Button("shrekislove", "sound", "assets/audio/shrekislove.wav")); 
-        buttons.push(new Button("bushesoflove", "sound", "assets/audio/bushesoflove.mp3")); 
+        buttons.push(new Button("bushesoflove", "sound", "assets/audio/bushesoflove.wav")); 
         buttons.push(new Button("kyle's mom", "sound", "assets/audio/kylesmom.mp3")); 
+        buttons.push(new Button("doh", "sound", "assets/audio/doh.mp3")); 
+        buttons.push(new Button("Ha GAY", "sound", "assets/audio/Ha GAY.mp3")); 
+        buttons.push(new Button("Le Bron James", "sound", "assets/audio/lebronjames.mp3")); 
+        buttons.push(new Button("The ting go skrrra pap pap ka ka ka", "sound", "assets/audio/skrrra.mp3")); 
+        buttons.push(new Button("Rampage", "sound", "assets/audio/rampage.mp3")); 
+        buttons.push(new Button("Dramatic Squirrel", "sound", "assets/audio/dramaticSquirrel.mp3")); 
         
         return buttons; 
     }

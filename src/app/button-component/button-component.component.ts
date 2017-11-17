@@ -24,7 +24,7 @@ audiofile:any;
     if(this.audiofile === null || this.audiofile === undefined){
       this.audiofile = new Audio(); 
       this.audiofile.src = this.button.link; 
-let audio = new Audio(); 
+      let audio = new Audio(); 
 
     }
     if(this.playing == false){
