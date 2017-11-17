@@ -11,7 +11,6 @@ playing:boolean= false;
 audiofile:any; 
 
   constructor() { 
-   
   }
 
   ngOnInit() {
