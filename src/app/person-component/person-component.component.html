@@ -1,0 +1,18 @@
+ <!-- <li *ngFor="let peron for persons">{{person}}</li> --> 
+ Person: {{person.name}}
+ <ul>
+   <li>E-mail: {{person.email}}</li>
+   <li>Age: {{person.age}}</li>
+  </ul>
+
+    <h2>Buttons: </h2>
+ <ul>
+  <li *ngFor="let button of buttons"><app-button-component [button]="button"></app-button-component> 
+    </li>
+  </ul> 
+ 
+
+  <!--<li *ngFor="let button for buttons">
+  <app-button-component></app-button-component>
+  </li>-->
+
